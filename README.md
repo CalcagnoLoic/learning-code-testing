@@ -1,26 +1,60 @@
-# Testez vos applications avec javascript - Les tests unitaires
+# Testez vos applications avec javascript - Les tests d'intégrations
 
 # Exercice n°1
 
-Fichier concerné : [``js/utils/env/index.js``](https://github.com/CalcagnoLoic/unittest-learning/blob/unittest/js/utils/env/index.js)
+Fichier concerné : [`js/router/index.js`]()
+
 ## Premier test
-- Given : Je suis en environnement de test
-- When : j'appelle la fonction ``isInTestEnv``
-- Then : la fonction me retourne le booléen true
+
+- Given : En tant qu'utilisateur,
+- When : je vais sur l'URL "``/``"
+- Then : je souhaite voir la page de connexion s'afficher avec le titre "``Veuillez vous connecter``"
 
 ## Deuxième test
 
-- Given : Je suis en environnement de test
-- When : j'appelle la fonction ``isInTestEnv`` et que je précise que je ne suis pas en environnement de test
-- Then : la fonction me retourne le booléen false
+- Given : En tant qu'utilisateur,
+- When : je vais sur l'URL "``/#/home``"
+- Then : je souhaite voir la page d'accueil des capteurs s'afficher avec le titre "``Vos capteurs``"
+
+## Troisième test
+
+- Given : En tant qu'utilisateur,
+- When : je vais sur l'URL "``/#/facade-details``"
+- Then : je souhaite voir la page d'accueil des capteurs s'afficher avec le titre "``Détails du capteur``"
+
+## Quatrième test
+
+- Given : En tant qu'utilisateur,
+- When : je vais sur l'URL "``/#/add-sensor``"
+- Then : je souhaite voir la page d'accueil des capteurs s'afficher avec le titre "``Ajout d'un nouveau capteur``"
 
 
 # Exercice n°2
 
-Fichier concerné : [``js/utils/api/index.js``](https://github.com/CalcagnoLoic/unittest-learning/blob/unittest/js/utils/api/sensorsApi/index.js)
-
 ## Premier test
 
-- Given : Je suis en environnement de test
-- When : j'appelle la fonction ``retrieveSensorsData`` pour récupérer les données des capteurs de la page d'accueil
-- Then : la fonction me retourne bien les données des façaces mockées.
+-   Given : En tant qu'utilisateur déconnecté,
+-   When : je complète les informations du formulaire avec une erreur dans l'e-mail thomas@thomas.com au lieu de thomas@facadia.com
+-   Then : je clique sur le bouton submit
+-   Then : un message d'erreur s'affiche
+
+## Deuxième test
+
+-   Given : En tant qu'utilisateur déconnecté,
+-   When : je complète les informations du formulaire avec la bonne adresse e-mail thomas@facadia.com
+-   Then : je clique sur le bouton submit
+-   Then : un message d'erreur pour le mot de passe s'affiche
+
+## Troisième test
+
+- Given : En tant qu'utilisateur déconnecté,
+- When : je complète les informations du formulaire avec la bonne adresse e-mail thomas@facadia.com et le mauvais mot de passe
+- Then : je clique sur le bouton submit
+- Then : un message d'erreur pour le mot de passe s'affiche
+
+## Quatrième test
+
+- Given : En tant qu'utilisateur déconnecté,
+- When : je complète les informations du formulaire avec la bonne adresse e-mail thomas@facadia.com et le bon mot de passe azerty
+- Then : je clique sur le bouton submit
+- Then : aucun message d'erreur s'affiche

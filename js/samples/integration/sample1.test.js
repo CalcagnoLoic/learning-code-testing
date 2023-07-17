@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 // Ici j'importe DOM Test Librairy
- import {
+import {
     getByTestId
 } from '@testing-library/dom'
 
