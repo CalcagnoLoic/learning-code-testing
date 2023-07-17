@@ -2,23 +2,22 @@
 
 # Exercice n°1
 
-Fichier concerné : ``js/utils/env/index.js``
-
+Fichier concerné : [``js/utils/env/index.js``](https://github.com/CalcagnoLoic/unittest-learning/blob/unittest/js/utils/env/index.js)
 ## Premier test
 - Given : Je suis en environnement de test
-- When : j'appelle la fonction isInTestEnv
+- When : j'appelle la fonction ``isInTestEnv``
 - Then : la fonction me retourne le booléen true
 
 ## Deuxième test
 
 - Given : Je suis en environnement de test
-- When : j'appelle la fonction isInTestEnv et que je précise que je ne suis pas en environnement de test
+- When : j'appelle la fonction ``isInTestEnv`` et que je précise que je ne suis pas en environnement de test
 - Then : la fonction me retourne le booléen false
 
 
 # Exercice n°2
 
-Fichier concerné : ``js/utils/api/index.js``
+Fichier concerné : [``js/utils/api/index.js``](https://github.com/CalcagnoLoic/unittest-learning/blob/unittest/js/utils/api/sensorsApi/index.js)
 
 ## Premier test
 
