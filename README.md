@@ -24,6 +24,10 @@ Voici les plus courants :
 
 ## Les tests unitaires 
 
+Un test unitaire permet de tester une partie spéficide du programme. Un test unitaire doit être simple à écrire, à lire et rapide à exécuter. De plus, il ne doit pas avoir d'effets de bord. 
+
+Il existe une règle d'or dans les bonnes pratiques des tests. Si on ne peut réaliser facilement un test, c'est que le code est trop compliqué et doit être simplifié. 
+
 ## Les tests d'intégrations 
 
 ## Les tests End-To-End
