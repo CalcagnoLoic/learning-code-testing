@@ -2,7 +2,7 @@
 
 # Exercice n°1
 
-Fichier concerné : [`js/router/index.js`]()
+Fichier concerné : [`js/router/index.js`](https://github.com/CalcagnoLoic/learning-code-testing/blob/integrationtest/js/router/index.js)
 
 ## Premier test
 
@@ -31,6 +31,7 @@ Fichier concerné : [`js/router/index.js`]()
 
 # Exercice n°2
 
+Fichier concerné : [js/utils/signInForm/index.js]()
 ## Premier test
 
 -   Given : En tant qu'utilisateur déconnecté,
