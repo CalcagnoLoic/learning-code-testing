@@ -16,11 +16,11 @@ Il existe une multitude de tests que l'on peut appliquer à un projet. Il y a le
 
 Voici les plus courants : 
 
-- [Les tests unitaires](https://github.com/CalcagnoLoic/unittest-learning/tree/master#les-tests-unitaires). Ce sont souvent les premiers test implémentés.
+- [Les tests unitaires](https://github.com/CalcagnoLoic/learning-code-testing/tree/master#les-tests-unitaires). Ce sont souvent les premiers test implémentés.
 
-- [Les tests d'intégration](https://github.com/CalcagnoLoic/unittest-learning/tree/master#les-tests-dint%C3%A9grations). Ce sont des tests que l'on ajoute soit en même temps que les trsts unitaires, soit après. Ils sont déjà plus complexes. 
+- [Les tests d'intégration](https://github.com/CalcagnoLoic/learning-code-testing/tree/master#les-tests-dint%C3%A9grations). Ce sont des tests que l'on ajoute soit en même temps que les trsts unitaires, soit après. Ils sont déjà plus complexes. 
 
-- [Les tests End-To-End (E2E)](https://github.com/CalcagnoLoic/unittest-learning/tree/master#les-tests-end-to-end). Ce sont des tests assez complexes qui sont utilisés dans la phase de maturité du projet.
+- [Les tests End-To-End (E2E)](https://github.com/CalcagnoLoic/learning-code-testing/tree/master#les-tests-end-to-end). Ce sont des tests assez complexes qui sont utilisés dans la phase de maturité du projet.
 
 ## Les tests unitaires 
 
@@ -31,5 +31,11 @@ Il existe une règle d'or dans les bonnes pratiques des tests. Si on ne peut ré
 De plus, ce genre de test permet de fiabiliser les applications et de décomplexifier le code. Il est nécessaire de tester en premier lieu les parties les plus complexes et critique du code.
 
 ## Les tests d'intégrations 
+
+Ce type de test s'effectue après les tests unitaires. Ils sont plus complexes à réaliser et souvent, on a besoin de librairies complémentaires. De plus, un test d'intégration teste l'ensemble d'une fonctionnalité. 
+
+Dans ce type de test, on simule donc certaines actions comme les clics de souris, compléter un champs de formulaire ou récupérer des données d'une API.  
+
+**Attention**, il ne s'agit de réaliser un parcours complet d'un utilisateur, sinon ce serait du E2E. 
 
 ## Les tests End-To-End
