@@ -24,9 +24,11 @@ Voici les plus courants :
 
 ## Les tests unitaires 
 
-Un test unitaire permet de tester une partie spéficide du programme. Un test unitaire doit être simple à écrire, à lire et rapide à exécuter. De plus, il ne doit pas avoir d'effets de bord. 
+Un test unitaire permet de tester une partie spéficique du programme. Un test unitaire doit être simple à écrire, à lire et rapide à exécuter. De plus, il ne doit pas avoir d'effets de bord. 
 
 Il existe une règle d'or dans les bonnes pratiques des tests. Si on ne peut réaliser facilement un test, c'est que le code est trop compliqué et doit être simplifié. 
+
+De plus, ce genre de test permet de fiabiliser les applications et de décomplexifier le code. Il est nécessaire de tester en premier lieu les parties les plus complexes et critique du code.
 
 ## Les tests d'intégrations 
 
