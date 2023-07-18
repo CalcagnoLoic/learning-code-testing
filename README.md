@@ -32,6 +32,12 @@ De plus, ce genre de test permet de fiabiliser les applications et de décomplex
 
 ## Les tests d'intégrations
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Logo VScode">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js">
+    <img src="https://img.shields.io/badge/OpenClassroom-8A2BE2?style=for-the-badge&logoColor=white" alt="js">
+</p>
+
 Ce type de test s'effectue après les tests unitaires. Ils sont plus complexes à réaliser et souvent, on a besoin de librairies complémentaires. De plus, un test d'intégration teste l'ensemble d'une fonctionnalité.
 
 Dans ce type de test, on simule donc certaines actions comme les clics de souris, compléter un champs de formulaire ou récupérer des données d'une API.
@@ -77,3 +83,6 @@ Il existe cependant 2 limites aux snapshot :
 
 - Ils ne testent pas la validité d'un élément
 - Ils augmentent partiellement la couverture de test
+
+---------------------------------------------------------------------------------
+Apprentissage réalisé grâce au cours ['Utilisez des design patterns en JavaScript'](https://openclassrooms.com/fr/courses/7159306-testez-vos-applications-front-end-avec-javascript) d'OpenClassrooms donné par [@tdimnet](https://github.com/tdimnet/)
