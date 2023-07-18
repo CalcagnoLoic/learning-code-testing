@@ -47,4 +47,4 @@ A l'heure actuelle, un projet complexe est fait d'un ensemble de systèmes inter
 Un test E2E peut être : 
 
 - manuel: c'est l'équipe de dev ou le product manager qui teste la fonctionnalité à la main.
-- automatique: en plus de faire passer le test sur la CI, on fait tourner les tests à intervalles réguliers sur des serveurs.
+- automatique: en plus de faire passer le test sur la CI, on fait tourner les tests à intervalles réguliers sur des serveurs. 
