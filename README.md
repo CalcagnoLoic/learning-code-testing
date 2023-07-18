@@ -39,3 +39,12 @@ Dans ce type de test, on simule donc certaines actions comme les clics de souris
 **Attention**, il ne s'agit de réaliser un parcours complet d'un utilisateur, sinon ce serait du E2E. 
 
 ## Les tests End-To-End
+
+Ce sont les tests que l'on réalise à la maturité de l'application. Généralement, on vérifie l'intégralité du trajet utilisateur afin de voir si l'application répond correctement. 
+
+A l'heure actuelle, un projet complexe est fait d'un ensemble de systèmes interconnectés comme le système de cache ou d'authentification. Il est impératif de faire des tests E2E afin de valider que ces différents systèmes fonctionnent tous correctement. 
+
+Un test E2E peut être : 
+
+- manuel: c'est l'équipe de dev ou le product manager qui teste la fonctionnalité à la main.
+- automatique: en plus de faire passer le test sur la CI, on fait tourner les tests à intervalles réguliers sur des serveurs.
