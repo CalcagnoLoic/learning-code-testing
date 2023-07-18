@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="login"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        TypeError: browser.navigateTo is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\nightwatch\templates\login.js:22:13)
+       at new Promise (&lt;anonymous&gt;)
+    </system-err>
+  
+
+    
+    <error message="browser.navigateTo is not a function"><![CDATA[
+      TypeError: browser.navigateTo is not a function
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\nightwatch\templates\login.js:22:13)
+    at Context.callAsync (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\context.js:392:20)
+    at Context.invokeMethod (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\context.js:343:21)
+    at C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:79:24
+    at new Promise (&lt;anonymous&gt;)
+    at BeforeAll.run (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\hooks\_basehook.js:54:14)
+    at Runnable.__runFn (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\index.js:187:35)
+    at Runnable.run (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\index.js:496:33)
+    at TestSuite.handleRunnable (C:\Users\loic8\Bureau\Formations\Openclassroom formations\DEVELOPPEMENT WEB\13.Testez vos applications avec javascript\node_modules\nightwatch\lib\testsuite\index.js:501:18)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="To check session cookie after successful login" classname="login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
