@@ -1,5 +1,11 @@
 # Tester son code en javascript
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Logo VScode">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js">
+    <img src="https://img.shields.io/badge/OpenClassroom-8A2BE2?style=for-the-badge&logoColor=white" alt="js">
+</p>
+
 # Le cycle de développement logiciel
 
 L'écriture des tests va dépendre de la phase du cycle de vie dans lequel on se trouve.
@@ -31,12 +37,6 @@ Il existe une règle d'or dans les bonnes pratiques des tests. Si on ne peut ré
 De plus, ce genre de test permet de fiabiliser les applications et de décomplexifier le code. Il est nécessaire de tester en premier lieu les parties les plus complexes et critique du code.
 
 ## Les tests d'intégrations
-
-<p align="center">
-    <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Logo VScode">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="js">
-    <img src="https://img.shields.io/badge/OpenClassroom-8A2BE2?style=for-the-badge&logoColor=white" alt="js">
-</p>
 
 Ce type de test s'effectue après les tests unitaires. Ils sont plus complexes à réaliser et souvent, on a besoin de librairies complémentaires. De plus, un test d'intégration teste l'ensemble d'une fonctionnalité.
 
