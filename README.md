@@ -85,4 +85,4 @@ Il existe cependant 2 limites aux snapshot :
 - Ils augmentent partiellement la couverture de test
 
 ---------------------------------------------------------------------------------
-Apprentissage réalisé grâce au cours ['Utilisez des design patterns en JavaScript'](https://openclassrooms.com/fr/courses/7159306-testez-vos-applications-front-end-avec-javascript) d'OpenClassrooms donné par [@tdimnet](https://github.com/tdimnet/)
+Apprentissage réalisé grâce au cours ['Testez vos applications Front End avec JavaScript '](https://openclassrooms.com/fr/courses/7159306-testez-vos-applications-front-end-avec-javascript) d'OpenClassrooms donné par [@tdimnet](https://github.com/tdimnet/)
